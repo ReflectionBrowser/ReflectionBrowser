@@ -1,0 +1,29 @@
+dt.variables {
+  margin-top: 9px;
+}
+
+table.table-variables {
+  margin-bottom: 0;
+}
+
+pre.variables {
+  background-color: #fff;
+  border-radius: 0;
+  white-space: pre-wrap;
+}
+
+pre.variables-list {
+  border: 1px #ddd solid;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+pre.variables-table {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+pre.variables-inline {
+  display: inline;
+}
