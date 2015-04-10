@@ -43,8 +43,8 @@ final class RBApplication {
   }
 
   public function run() {
-    if (strpos($this->mapSERVER['REQUEST_URI'], basename($this->mapSERVER['DOCUMENT_URI'])) === false) {
-      $this->redirectToURL($this->mapSERVER['DOCUMENT_URI']);
+    if (strpos($this->mapSERVER['REQUEST_URI'], basename($this->URI())) === false) {
+      $this->redirectToURL($this->URI());
     }
 
     $strPageName = $this->activePage();
@@ -109,7 +109,7 @@ final class RBApplication {
   }
 
   public function URI() {
-    return $this->mapSERVER['DOCUMENT_URI'];
+    return $this->mapSERVER['PHP_SELF'];
   }
 
   public function navigationItems() {
