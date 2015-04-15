@@ -1,5 +1,5 @@
 # ReflectionBrowser
-A webapp to browse the PHP runtime, like classes, methods, extensions.
+A webapp to browse the PHP runtime, like classes, methods, extensions. If you want to see a demo? Go to http://reflection-browser.herokuapp.com/!
 
 # Key features
 * No external dependencies
