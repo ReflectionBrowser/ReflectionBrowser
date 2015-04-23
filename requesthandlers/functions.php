@@ -13,7 +13,7 @@ final class RBFunctionsRequestHandler extends RBMasterDetailRequestHandler {
     $objRuntime = $this->runtime();
 
     if (strpos($strName, '::') !== false) {
-      $objFunction = RBReflectionMethodFromStaticMethodName($strName);
+      $objFunction = RBReflectionMethodFromStaticName($strName);
     } else if (strpos($strName, '->') !== false) {
       list($strClassName, $strMethodName) = explode('->', $strName);
       $objFunction = new ReflectionMethod($strClassName, $strMethodName);
