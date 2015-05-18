@@ -2,7 +2,7 @@
 A webapp to browse the PHP runtime, like classes, methods, extensions. If you want to see a demo? Go to http://reflection-browser.herokuapp.com/!
 
 # Why did I write ReflectionBrowser?
-* I'd like to have a view into the PHP runtime world. This helps to understand the program you try to write. I couldn't find such app, so I've written it!
+I'd like to have a view into the PHP runtime world. This helps to understand the program you try to write. I couldn't find such app, so I've written it!
 
 # Key features
 * No external dependencies
